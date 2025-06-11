@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.outer{
+  background-color: #279ebf;
+  width: 100%;
+  height: 100vh;
+}
+
+.inner{
+  width: 1320px;
+  margin: auto;
+}
+
+.head{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 50px 0px;
+  color: white;
+}
+
+form input{
+  width: 300px;
+  height: 40px;
+  padding: 0px 10px;
+}
+
+.submit{
+  font-style: oblique;
+  background-color: #0f7374;
+  border: 1px solid black;
+  color: white;
+  padding: 7px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.below{
+  width: 400px;
+  background-color: white;
+  margin: auto;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.below h3{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.below h3 span{
+  background-color: yellow;
+}
+
+.below h2{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.gif{
+  margin-left: 100px;
+}
