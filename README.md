@@ -2,7 +2,7 @@
 Fetching data with the API. <br> 
 This app takes your city name, asks OpenWeatherMap for current weather details, waits for the response, and then shows you the weather or tells you if the city is not found — all while keeping you informed with a loading animation.
 
-
+<img src="https://github.com/Ratankumar27/Weather-data-fetching-app-using-React-JS/blob/43771513121d2ee255648386cf986352e0ce19be/Screenshot%202025-06-11%20164459.png"/>
 <!DOCTYPE html>
 <html lang="en">
 <head>
